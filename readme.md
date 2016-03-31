@@ -1,4 +1,4 @@
-##说明
+## 说明
 
 
 
@@ -6,14 +6,15 @@
 
 基于ansj,对该作者 阿健表示感谢！！！
 
-##项目地址：
+## 项目地址：
 
 https://github.com/liangyangtao/classily.git
 
-##使用实例
+## 使用实例
 
 >
 {% highlight java %}
+
    public static void main(String[] args) {
 		ClassifierService classifierService = new ClassifierService();
 		classifierService.init();
@@ -24,7 +25,6 @@ https://github.com/liangyangtao/classily.git
 				.getBankTagNewssOpen(title, content));
 
 	}
-	
 {% endhighlight %}
 
 执行结果：
